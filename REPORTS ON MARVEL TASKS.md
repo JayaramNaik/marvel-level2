@@ -53,6 +53,8 @@ Understanding the logic for temporal checks (e.g., LastLogin before SignupDate) 
 **Improvements Suggested:**  
 The dataset could include more diverse data types for broader practice. Adding automated validation checks or using libraries like Great Expectations for data quality could enhance the process. The tutorial format was helpful, but more emphasis on why certain strategies (e.g., median vs. mean) are chosen would be beneficial.
 
+**Notebook:** [Copy_of_Datadetox.ipynb](https://github.com/JayaramNaik/marvel-level2/blob/main/Copy_of_Datadetox.ipynb)
+
 ---
 
 ### TASK 4: Anomaly Detection
@@ -69,6 +71,8 @@ Choosing the right contamination parameter for Isolation Forest and interpreting
 **Improvements Suggested:**  
 The dataset could include more features for deeper analysis. Adding evaluation metrics like precision or using other algorithms (e.g., DBSCAN) could enhance comparison. The tutorial style was effective, but more guidance on tuning hyperparameters would be helpful.
 
+**Notebook:** [Anomaly_detection.ipynb](https://github.com/JayaramNaik/marvel-level2/blob/main/Anomaly_detection.ipynb)
+
 ---
 
 ### TASK 5: Logistic Regression from Scratch
@@ -84,4 +88,6 @@ Implementing gradient descent and ensuring convergence without vanishing gradien
 
 **Improvements Suggested:**  
 The dataset could include more balanced classes or techniques like SMOTE. Adding regularization to the scratch model would make it more robust. The step-by-step breakdown was excellent, but more on hyperparameter tuning (e.g., learning rate) would help.
+
+**Notebook:** [Logistic_Regression.ipynb](https://github.com/JayaramNaik/marvel-level2/blob/main/Logistic_Regression.ipynb)
 

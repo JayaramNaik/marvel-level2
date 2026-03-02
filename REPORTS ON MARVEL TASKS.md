@@ -39,6 +39,8 @@ Processed G‑Flix log data (user ID, session length, pages viewed, errors) with
 
 Both methods identified a similar set of suspicious accounts; I reported the top five users for each and discussed differences.
 
+**Notebook:** https://colab.research.google.com/drive/1tv9gm37Wof47HKB6srdrA5T44OgW0Wdz
+
 ---
 
 ### TASK 5: Logistic Regression from Scratch

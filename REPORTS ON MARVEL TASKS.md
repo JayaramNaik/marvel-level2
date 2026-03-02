@@ -29,6 +29,8 @@ Loaded `customer_data.csv` into a Pandas DataFrame in Colab and performed extens
 
 Saved the cleaned result as `cleaned_customer_data.csv` and documented steps in the notebook.
 
+**Notebook:** https://colab.research.google.com/drive/1cEB_NKEtyk0m-GRk_2V94zLoVVCkAA-D
+
 ---
 
 ### TASK 4: Anomaly Detection

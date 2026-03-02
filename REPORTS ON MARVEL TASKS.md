@@ -10,7 +10,7 @@ Key takeaways:
 - Faced occasional Wi‑Fi drops and struggled initially with MATLAB’s command‑history interface.
 
 Overall, the course provided a gentle introduction to model workflows and reinforced concepts I later applied in Python.
-
+![MATLAB Onramp Certificate](Screenshot%202025-10-18%20005011.png)
 ---
 
 ### TASK 2: Kaggle Crafter – Build & Publish Your Own Dataset

@@ -207,9 +207,10 @@ Loaded five `.pkl` models (three classifiers, two regressors) and applied them t
 For classifiers computed accuracy, precision, recall, F1 via `classification_report`; for regressors computed RMSE and R². Results were written to `model_comparison.csv` and visualized with side‑by‑side bar charts. Handled mismatches by reordering test DataFrame columns and imputing NaNs; one model needed an older Scikit‑Learn version to load without warnings.
 
 **Highlights:**
-- Best classifier: random forest (F1 ≈ 0.86); SVM and logistic trailed.
-- Best regressor: gradient‑boosted (RMSE ≈ 2.15) vs linear (RMSE ≈ 3.68).
-- Preprocessing consistency was the main challenge; automated pipelines would prevent errors.
+- **Best classifier:** SVM (`model4_svm.pkl`) with **F1 ≈ 0.0251**
+- Logistic Regression and KNN showed lower F1-scores
+- Decision Tree and Random Forest produced **F1 = 0**, indicating poor recall on the positive class
+- Accuracy across models remained around **0.50**, suggesting class imbalance or weak predictive power
 
 **Artifacts:** evaluation script, comparison CSV, classification/regression plots.  
 **Notebook:** https://colab.research.google.com/drive/1fha_v2rJ0X1JweTzK22iHjRfNUD51nwI  
